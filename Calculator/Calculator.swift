@@ -72,7 +72,11 @@ extension Calculator {
     @IBAction func comaPressed(sender: UIButton!) -> Void {
         soundsOperation.playSound()
         
-        runningNumber += "."
+        if runningNumber == "" {
+            runningNumber += "0."
+        } else {
+            runningNumber += "."
+        }
         
         updateOperationResult(runningNumber)
     }
