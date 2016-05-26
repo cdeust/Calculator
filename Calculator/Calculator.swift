@@ -104,9 +104,15 @@ extension Calculator {
     }
     
     @IBAction func onSquareRootPressed(sender: UIButton!) -> Void {
-        runningNumber = "\(sqrt(Double(runningNumber)!))"
+        if runningNumber != "" {
+            runningNumber = "\(sqrt(Double(runningNumber)!))"
         
-        updateOperationResult(runningNumber)
+            updateOperationResult(runningNumber)
+        } else {
+            runningNumber = "\(sqrt(Double(result)!))"
+            
+            updateOperationResult(runningNumber)
+        }
     }
     
     @IBAction func onMultiplyPressed(sender: UIButton!) -> Void {
