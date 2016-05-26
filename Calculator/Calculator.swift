@@ -166,20 +166,14 @@ extension Calculator {
                 rightNumber = runningNumber
                 runningNumber = ""
                 
-                if currentOperation == Operation.Multiply {
-                    if leftNumber != "" && rightNumber != "" {
+                if leftNumber != "" && rightNumber != "" {
+                    if currentOperation == Operation.Multiply {
                         result = "\(Double(leftNumber)! * Double(rightNumber)!)"
-                    }
-                } else if currentOperation == Operation.Divide {
-                    if leftNumber != "" && rightNumber != "" {
+                    } else if currentOperation == Operation.Divide {
                         result = "\(Double(leftNumber)! / Double(rightNumber)!)"
-                    }
-                } else if currentOperation == Operation.Add {
-                    if leftNumber != "" && rightNumber != "" {
+                    } else if currentOperation == Operation.Add {
                         result = "\(Double(leftNumber)! + Double(rightNumber)!)"
-                    }
-                } else if currentOperation == Operation.Subtract {
-                    if leftNumber != "" && rightNumber != "" {
+                    } else if currentOperation == Operation.Subtract {
                         result = "\(Double(leftNumber)! - Double(rightNumber)!)"
                     }
                 }
