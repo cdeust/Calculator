@@ -20,6 +20,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="sZ7-Wt-DyT">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Soleil" translatesAutoresizingMaskIntoConstraints="NO" id="6nR-lz-87J">
+                                <rect key="frame" x="5" y="5" width="125" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="J1l-L3-CYD"/>
+                                    <constraint firstAttribute="height" constant="125" id="weD-qU-KWw"/>
+                                </constraints>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nekko" translatesAutoresizingMaskIntoConstraints="NO" id="s8C-fa-Wh8">
                                 <rect key="frame" x="252" y="565" width="101" height="107"/>
                                 <constraints>
@@ -378,6 +385,7 @@
                             <constraint firstItem="0Dg-5o-kzw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0tR-Io-V04"/>
                             <constraint firstItem="s8C-fa-Wh8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="115" id="4CV-Q4-bow"/>
                             <constraint firstAttribute="bottomMargin" secondItem="s8C-fa-Wh8" secondAttribute="bottom" constant="-5" id="4Yb-Q0-tof"/>
+                            <constraint firstItem="6nR-lz-87J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="6wq-yZ-ZEh"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sZ7-Wt-DyT" secondAttribute="bottom" id="8qH-Tu-0qP"/>
                             <constraint firstItem="vDF-sd-9Us" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ayz-GT-3d1"/>
                             <constraint firstAttribute="trailing" secondItem="sZ7-Wt-DyT" secondAttribute="trailing" id="CNU-5n-Yi6"/>
@@ -388,6 +396,7 @@
                             <constraint firstItem="qGA-Zx-Ldm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="abL-nP-7vl"/>
                             <constraint firstItem="sZ7-Wt-DyT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gc0-KH-mRx"/>
                             <constraint firstItem="s8C-fa-Wh8" firstAttribute="top" secondItem="vDF-sd-9Us" secondAttribute="bottom" constant="44" id="phj-1H-L3Q"/>
+                            <constraint firstItem="6nR-lz-87J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="u3B-Ax-pW3"/>
                             <constraint firstItem="vDF-sd-9Us" firstAttribute="top" secondItem="0Dg-5o-kzw" secondAttribute="bottom" constant="20" id="xwc-2M-whE"/>
                         </constraints>
                     </view>
@@ -407,5 +416,6 @@
         <image name="Background" width="375" height="667"/>
         <image name="Nekko" width="97" height="102"/>
         <image name="RegisterDialog" width="337" height="530"/>
+        <image name="Soleil" width="130" height="129"/>
     </resources>
 </document>
