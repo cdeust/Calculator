@@ -167,13 +167,21 @@ extension Calculator {
                 runningNumber = ""
                 
                 if currentOperation == Operation.Multiply {
-                    result = "\(Double(leftNumber)! * Double(rightNumber)!)"
+                    if leftNumber != "" && rightNumber != "" {
+                        result = "\(Double(leftNumber)! * Double(rightNumber)!)"
+                    }
                 } else if currentOperation == Operation.Divide {
-                    result = "\(Double(leftNumber)! / Double(rightNumber)!)"
+                    if leftNumber != "" && rightNumber != "" {
+                        result = "\(Double(leftNumber)! / Double(rightNumber)!)"
+                    }
                 } else if currentOperation == Operation.Add {
-                    result = "\(Double(leftNumber)! + Double(rightNumber)!)"
+                    if leftNumber != "" && rightNumber != "" {
+                        result = "\(Double(leftNumber)! + Double(rightNumber)!)"
+                    }
                 } else if currentOperation == Operation.Subtract {
-                    result = "\(Double(leftNumber)! - Double(rightNumber)!)"
+                    if leftNumber != "" && rightNumber != "" {
+                        result = "\(Double(leftNumber)! - Double(rightNumber)!)"
+                    }
                 }
                 
                 leftNumber = result

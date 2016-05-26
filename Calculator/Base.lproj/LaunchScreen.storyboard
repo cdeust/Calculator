@@ -19,26 +19,25 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="d6d-op-hiM">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Soleil" translatesAutoresizingMaskIntoConstraints="NO" id="22m-0H-SVh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Soleil" translatesAutoresizingMaskIntoConstraints="NO" id="Jvi-KH-pvn">
                                 <rect key="frame" x="5" y="5" width="125" height="125"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="125" id="0TG-s2-XAJ"/>
-                                    <constraint firstAttribute="width" constant="125" id="ffx-uL-rPX"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="skr-lR-CGO"/>
-                                    <constraint firstAttribute="height" constant="125" id="woc-bI-k3p"/>
+                                    <constraint firstAttribute="width" constant="125" id="IMK-HT-apL"/>
+                                    <constraint firstAttribute="height" constant="125" id="N4u-p9-tYj"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="22m-0H-SVh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="5" id="14g-qF-Eex"/>
                             <constraint firstAttribute="trailing" secondItem="d6d-op-hiM" secondAttribute="trailing" id="JIq-fv-Z0J"/>
-                            <constraint firstItem="22m-0H-SVh" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="5" id="WdW-dw-rEx"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="d6d-op-hiM" secondAttribute="bottom" id="peZ-2C-lfL"/>
+                            <constraint firstItem="Jvi-KH-pvn" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="5" id="rDC-9M-VWS"/>
+                            <constraint firstItem="Jvi-KH-pvn" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="5" id="taI-mP-lD7"/>
                             <constraint firstItem="d6d-op-hiM" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="uF7-fy-eoZ"/>
                             <constraint firstItem="d6d-op-hiM" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="wnv-Yv-YGo"/>
                         </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>

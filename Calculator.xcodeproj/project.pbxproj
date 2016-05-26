@@ -12,11 +12,11 @@
 		B182C74E1CF4FA2C006DD4A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B182C74D1CF4FA2C006DD4A8 /* AppDelegate.swift */; };
 		B182C7501CF4FA2C006DD4A8 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B182C74F1CF4FA2C006DD4A8 /* Calculator.swift */; };
 		B182C7531CF4FA2C006DD4A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B182C7511CF4FA2C006DD4A8 /* Main.storyboard */; };
-		B182C7551CF4FA2C006DD4A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B182C7541CF4FA2C006DD4A8 /* Assets.xcassets */; };
 		B182C7581CF4FA2C006DD4A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B182C7561CF4FA2C006DD4A8 /* LaunchScreen.storyboard */; };
 		B182C7631CF4FA2C006DD4A8 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B182C7621CF4FA2C006DD4A8 /* CalculatorTests.swift */; };
 		B182C7761CF51DCF006DD4A8 /* SoundsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B182C7751CF51DCF006DD4A8 /* SoundsOperation.swift */; };
 		B182C77E1CF53AE6006DD4A8 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = B182C77D1CF53AE6006DD4A8 /* btn.wav */; };
+		B1B3B79E1CF67E6100EBA4F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B182C7541CF4FA2C006DD4A8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -224,8 +224,8 @@
 				B182C7581CF4FA2C006DD4A8 /* LaunchScreen.storyboard in Resources */,
 				B125DF7E1CF6642A00C4A27A /* ExperimentingScreen.png in Resources */,
 				B125DF7D1CF6642A00C4A27A /* InitialScreen.png in Resources */,
-				B182C7551CF4FA2C006DD4A8 /* Assets.xcassets in Resources */,
 				B182C7531CF4FA2C006DD4A8 /* Main.storyboard in Resources */,
+				B1B3B79E1CF67E6100EBA4F4 /* Assets.xcassets in Resources */,
 				B182C77E1CF53AE6006DD4A8 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
